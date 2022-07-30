@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 13px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.language-link p{
+    margin-right: 10px;
+    font-size: 13px;
+    display: inline-flex;
+}
+hr{
+    border: .2px solid rgb(220, 220, 220);
+}
+.links-div a{
+    color: gray;
+}
+small{
+    margin-top: 10px;
+}
