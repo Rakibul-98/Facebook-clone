@@ -1,6 +1,10 @@
 .nav-container{
     display: grid;
-    grid-template-columns: 4fr 5fr 3fr;
+    grid-template-columns: 3fr 6fr 3fr;
+    width: 90%;
+    margin: 30px auto;
+    border-top: 1px solid rgb(209, 206, 206);
+    border-bottom: 1px solid rgb(209, 206, 206);
 }
 .icon-div{
     display: flex;
@@ -17,4 +21,34 @@
 }
 .icon-div input::placeholder{
     font-size: 15px;
+}
+.nav-links{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto auto;
+}
+.nav-links a{
+    font-size: 20px;
+}
+.menu-div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 0 auto auto;
+}
+.menu-div img{
+    height: 17px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+    padding: 5px;
+}
+.profile-div{
+    display: flex;
+    align-items: center;
+}
+.profile-div p{
+    display: inline-flex;
+    margin: 0 10px 5px 3px;
 }
