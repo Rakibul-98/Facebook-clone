@@ -1,0 +1,20 @@
+.nav-container{
+    display: grid;
+    grid-template-columns: 4fr 5fr 3fr;
+}
+.icon-div{
+    display: flex;
+    align-items: center;
+}
+.icon-div img{
+    height: 30px;
+    margin: 0 10px;
+}
+.icon-div input{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+}
+.icon-div input::placeholder{
+    font-size: 15px;
+}
