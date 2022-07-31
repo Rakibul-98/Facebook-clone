@@ -1,3 +1,4 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 .nav-container{
     display: grid;
     grid-template-columns: 3fr 6fr 3fr;
@@ -18,9 +19,14 @@
     height: 30px;
     width: 200px;
     border-radius: 20px;
+    background-color: rgb(247, 245, 245);
+    border: none;
 }
 .icon-div input::placeholder{
     font-size: 15px;
+}
+.search-box::-webkit-input-placeholder { 
+    font-family: FontAwesome, Roboto, Arial, sans-serif;
 }
 .nav-links{
     width: 60%;

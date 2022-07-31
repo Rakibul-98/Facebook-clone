@@ -15,7 +15,7 @@ const NavBar = () => {
             <div className="nav-container">
                 <div className="icon-div">
                     <img src={logo} alt="" />
-                    <input type="search" name="" id="" placeholder='Search Facebook'/>
+                    <input className='search-box' type="search" name="" id="" placeholder="&#61442; Search Facebook"/>
                 </div>
                 <div className="nav-links">
                     <a href=""><FontAwesomeIcon icon={faHouse} /></a>
